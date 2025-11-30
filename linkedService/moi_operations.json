@@ -1,0 +1,17 @@
+{
+	"name": "moi_operations",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "moi-server.database.windows.net",
+			"database": "moi-database",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "moi-server-admin",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEZDMzBEQzE3LTY3RTktNEQ0My04MTY1LTFDMjhFNUNCMDc5RV9iNWU3ZmE3OC1jMTY2LTQ3MWItODE5MS1mNzk5MmY2Yzc4M2EiDQp9"
+		}
+	}
+}
